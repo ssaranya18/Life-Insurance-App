@@ -1,0 +1,39 @@
+.hello{
+    font-size: 2.7em;
+    color: rgb(169, 66, 66);
+}
+.welcome{
+    color: rgb(63, 45, 37);
+    font-size: 1.3em;
+    padding-left: 10px;
+}
+
+.square-list {
+    list-style-type: square; 
+    padding-left: 40px; 
+    font-size: 1em;
+    color:rgb(82, 73, 60)
+}
+  
+  .square-list ul {
+    /* list-style-type: none;  */
+    padding-left: 10px; 
+  }
+.home
+{
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  text-align: right;
+  height: 90vh;
+  font-size: 3.7rem;
+  background-position: center;
+  background-repeat: none;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  /* text-shadow: 4px 4px 4px #121111;  */
+  color:rgb(105, 47, 23)
+}
+
+  
+  

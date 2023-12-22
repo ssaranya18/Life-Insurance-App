@@ -1,38 +1,149 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.health{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 90vh;
+  font-size: 4rem;
+  background-position: center;
+  background-repeat: none;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  text-shadow: 4px 4px 4px #fff;
+}
+.terminsurance{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  font-size: 4rem;
+  background-position: center;
+  background-repeat: none;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  text-shadow: 4px 4px 4px #fff;
+}
+.contactus{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  font-size: 4rem;
+  background-position: center;
+  background-repeat: none;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  text-shadow: 4px 4px 4px #fff;
+
+}
+.accidental{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  font-size: 4rem;
+  background-position: center;
+  background-repeat: none;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  text-shadow: 4px 4px 4px #fff;
+
+}
+.childinsurance{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  font-size: 4rem;
+  background-position: center;
+  background-repeat: none;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  text-shadow: 4px 4px 4px #fff;
+
+}
+.products{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  font-size: 4rem;
+  background-position: center;
+  background-repeat: none;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  text-shadow: 4px 4px 4px #fff;
+
+}
+.services{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  font-size: 4rem;
+  background-position: center;
+  background-repeat: none;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  text-shadow: 4px 4px 4px #fff;
+
+}
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  font-size: 4rem;
+  background-position: center;
+  background-repeat: none;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  text-shadow: 4px 4px 4px #fff;
+}
+.login{
+  
+}
+.home {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5f5bc60959cec6440c4d5dbc/1613755464852-O6QNX4MQHU4041CEGFRT/life+insurance+group+or+whole.jpg");
 }
 
-.App-link {
-  color: #61dafb;
+.terminsurance {
+  background-image: url("");
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.health {
+  background-image: url("https://e0.pxfuel.com/wallpapers/384/203/desktop-wallpaper-health-medical-insurance.jpg");
+}
+
+.accidental {
+  background-image: url("");
+}
+
+.childinsurance {
+  background-image: url("");
+}
+
+.products {
+  background-image: url("");
+}
+
+.contactus {
+  background-image: url("");
+}
+
+.services {
+  background-image: url("");
+}
+
+.signup {
+  background-image: url("");
 }

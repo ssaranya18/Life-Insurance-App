@@ -1,0 +1,36 @@
+/* Content1.css */
+
+.card {
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+    background-color: rgb(2, 21, 15);
+  }
+  
+  .card-body {
+    background-color: #eaedf0;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #352e34;
+  }
+  
+  .btn-primary {
+    background-color: #c300ff;
+    border-color: #8000ff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #82108d;
+    border-color: #580f32;
+  }
+  
